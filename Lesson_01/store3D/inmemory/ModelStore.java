@@ -22,6 +22,11 @@ public class ModelStore implements IModelChanger {
         notifyChange();
     }
 
+    public Scene getScena(int id) {
+        Scene scena = this.scenes.get(id);
+        return scena;
+    }
+
     @Override
     public void notifyChange() {
         for (ModelChangedObserver observer : observers) {

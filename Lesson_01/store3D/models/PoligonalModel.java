@@ -23,5 +23,4 @@ public class PoligonalModel {
     public List<Texture> getTextures() {
         return textures;
     }
-
 }

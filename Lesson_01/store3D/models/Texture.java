@@ -15,5 +15,4 @@ public class Texture {
     public Texture(String name) {
         this.name = name;
     }
-
 }
